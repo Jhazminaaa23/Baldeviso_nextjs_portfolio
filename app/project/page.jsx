@@ -26,7 +26,7 @@ export default function Project() {
             alt="Project 1"
             className="w-full h-48 object-cover rounded-2xl mb-4 border border-white/10"
           />
-</div>
+
 
           <h3 className="text-xl font-semibold text-pink-200 mb-2">
             Student Friendly Lost and Found Mobile App (UI/UX Design)
@@ -45,6 +45,7 @@ export default function Project() {
                 <span className="px-3 py-1 bg-white/10 rounded-full text-xs">Figma</span>
                 
                 </div>
+              </div>
 
           <Link
             href="https://github.com/Jhazminaaa23/Lost-and-Found-.git"
