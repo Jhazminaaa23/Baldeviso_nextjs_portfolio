@@ -9,9 +9,7 @@ export default function About() {
     <main className="min-h-screen w-full bg-linear-to-br from-pastel-rose via-pastel-rose-950 to-black text-pastel-rose flex items-center justify-center p-8">
       
       
-      <div className="max-w-2xl w-full bg-white/5 backdrop-blur-xl border border-white/10 
-                      rounded-3xl shadow-2xl p-14 text-center
-                      glow-card floating-soft">
+      <div className="w-full max-w-sm sm:max-w-xl md:max-w-2xl bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl p-6 sm:p-10 md:p-14 text-center glow-card floating-soft">
 
         
         <div className="relative mx-auto mb-6 w-[320px] h-[px]">
