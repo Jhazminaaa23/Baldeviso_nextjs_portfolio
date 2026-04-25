@@ -126,7 +126,7 @@ export default function FeminineHero() {
         </div>
       </main>
 
-      {/* petals layer */}
+     
       <div aria-hidden className="pointer-events-none fixed inset-0 -z-10">
         {petals.map((p) => (
           <span
@@ -143,13 +143,13 @@ export default function FeminineHero() {
           </span>
         ))}
 
-        {/* some subtle sparkles */}
+        
         <span className="sparkle" style={{ left: '20%', top: '18%' }}>✦</span>
         <span className="sparkle" style={{ left: '68%', top: '30%' }}>✦</span>
         <span className="sparkle" style={{ left: '50%', top: '72%' }}>✦</span>
       </div>
 
-      {/* fonts + animations */}
+      
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;600&display=swap');
 

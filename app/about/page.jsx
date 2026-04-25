@@ -8,12 +8,12 @@ export default function About() {
   return (
     <main className="min-h-screen w-full bg-linear-to-br from-pastel-rose via-pastel-rose-950 to-black text-pastel-rose flex items-center justify-center p-8">
       
-      {/* glowing container */}
+      
       <div className="max-w-2xl w-full bg-white/5 backdrop-blur-xl border border-white/10 
                       rounded-3xl shadow-2xl p-14 text-center
                       glow-card floating-soft">
 
-        {/* glowing profile image */}
+        
         <div className="relative mx-auto mb-6 w-[320px] h-[px]">
           <div className="absolute inset-0 rounded-full bg-pastel-rose/40 blur-3xl animate-image-glow"></div>
 
@@ -34,7 +34,7 @@ export default function About() {
           Frontend Developer • Soft UI Designer • Pastel Lover
         </p>
 
-        {/* Social Icons */}
+        
         <div className="flex justify-center gap-5 mb-8 text-pastel-rose fade-up" style={{ animationDelay: "220ms" }}>
           <a href="https://facebook.com" target="_blank" className="hover:scale-110 transition" rel="noreferrer">
             <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07C2 17.09 5.66 21.19 10.44 21.98v-6.99H7.9v-2.92h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.77-1.61 1.56v1.87h2.74l-.44 2.92h-2.3V21.98C18.34 21.19 22 17.09 22 12.07z"/></svg>
@@ -49,14 +49,14 @@ export default function About() {
           </a>
         </div>
 
-        {/* About text */}
+        
         <p className="text-sm text-white leading-relaxed mb-8 fade-up" style={{ animationDelay: "320ms" }}>
           I love building soft, dreamy, feminine UI experiences that feel warm and calming.
           I combine pastel gradients, subtle glow effects, and smooth layouts to create
           interfaces that feel magical.
         </p>
 
-        {/* Buttons */}
+        
         <div className="flex justify-center gap-4 fade-up" style={{ animationDelay: "360ms" }}>
           <Link href="/contact" className="px-6 py-2 rounded-xl bg-linear-to-r from-pink-200 to-rose-300 text-black font-semibold shadow-lg hover:brightness-110 transition">
             Contact
@@ -64,7 +64,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* Animations + Glow Effects */}
+      
       <style>{`
         /* container glow */
         .glow-card {
