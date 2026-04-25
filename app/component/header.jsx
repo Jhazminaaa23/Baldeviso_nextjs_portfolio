@@ -22,7 +22,7 @@ export default function RootHeader() {
           </Link>
         </div>
 
-        <nav className="flex gap-4 items-center">
+        <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 items-center">
           {[
             { href: "/home", label: "Home", icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75V21h15V9.75" },
             { href: "/about", label: "About", icon: "M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.25a8.25 8.25 0 1 1 15 0v.75H4.5v-.75Z" },
@@ -33,7 +33,7 @@ export default function RootHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-2 px-3 py-2 rounded-full text-sm transition-all ${path === item.href ? 'bg-white/80 shadow-sm text-[#ff7aa2] ring-1 ring-pastel-rose/10' : 'text-[#ff8fb5] hover:text-[#ff7aa2] hover:bg-white/50'}`}
+              className={`flex items-center gap-2 px-2 sm:px-3 py-2 rounded-full text-xs sm:text-sm transition-all ${path === item.href ? 'bg-white/80 shadow-sm text-[#ff7aa2] ring-1 ring-pastel-rose/10' : 'text-[#ff8fb5] hover:text-[#ff7aa2] hover:bg-white/50'}`}
               aria-current={path === item.href ? 'page' : undefined}
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden>

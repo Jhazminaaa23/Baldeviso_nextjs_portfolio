@@ -66,7 +66,7 @@ export default function About() {
 
       
       <style>{`
-        /* container glow */
+        
         .glow-card {
           box-shadow: 0 0 40px rgba(255,122,162,0.18), 
                       0 0 120px rgba(255,122,162,0.12);
@@ -77,7 +77,7 @@ export default function About() {
                       0 0 160px rgba(255,122,162,0.25);
         }
 
-        /* container floating effect */
+        
         .floating-soft {
           animation: floatSoft 6s ease-in-out infinite;
         }
@@ -86,7 +86,7 @@ export default function About() {
           50% { transform: translateY(-10px); }
         }
 
-        /* profile glow animation */
+        
         @keyframes imageGlow {
           0% { opacity: .4; }
           50% { opacity: .85; }
@@ -96,7 +96,7 @@ export default function About() {
           animation: imageGlow 3.5s ease-in-out infinite;
         }
 
-        /* fade + pop animations */
+        
         .heading-in {
           opacity: 0;
           transform: translateY(10px) scale(.98);
