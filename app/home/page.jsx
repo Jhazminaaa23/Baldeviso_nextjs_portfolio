@@ -35,7 +35,7 @@ export default function FeminineHero() {
 
       
 
-      <main className="relative z-10 max-w-5xl mx-auto px-6 py-28">
+      <main className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
          
           <section className="space-y-6">
@@ -162,7 +162,7 @@ export default function FeminineHero() {
 
         .shadow-soft { box-shadow: 0 12px 36px rgba(160,80,120,0.08); }
 
-        /* reveal / fades */
+        
         .heading-in { opacity: 0; transform: translateY(12px) scale(.995); animation: headingIn 640ms cubic-bezier(.2,.9,.3,1) forwards; }
         @keyframes headingIn { to { opacity: 1; transform: translateY(0) scale(1); } }
 
@@ -172,16 +172,16 @@ export default function FeminineHero() {
         .card-pop { opacity: 0; transform: translateY(8px) scale(.997); animation: cardPop .56s cubic-bezier(.2,.9,.3,1) forwards; }
         @keyframes cardPop { to { opacity: 1; transform: translateY(0) scale(1); } }
 
-        /* floating orbs */
+        
         @keyframes floatingSlow { 0% { transform: translateY(0); } 50% { transform: translateY(-14px); } 100% { transform: translateY(0); } }
         .animate-floating-slow { animation: floatingSlow 8s ease-in-out infinite; }
         .delay-2000 { animation-delay: 2s; }
 
-        /* shimmer on CTA */
+        
         @keyframes shimmer { 0% { transform: translateX(-120%); } 100% { transform: translateX(120%); } }
         .animate-shimmer { background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent); transform: translateX(-100%); animation: shimmer 1.6s linear infinite; }
 
-        /* petal particle */
+        
         .petal {
           position: fixed;
           color: var(--pastel-rose);
@@ -199,12 +199,12 @@ export default function FeminineHero() {
         .sparkle { position: fixed; font-size: 12px; color: #fff; opacity: 0.8; filter: drop-shadow(0 6px 12px rgba(255,255,255,0.08)); animation: sparklePulse 3.4s ease-in-out infinite; }
         @keyframes sparklePulse { 0% { opacity: .2; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.06); } 100% { opacity: .2; transform: scale(.9); } }
 
-        /* reduced motion */
+        
         @media (prefers-reduced-motion: reduce) {
           .heading-in, .fade-up, .card-pop, .animate-floating-slow, .petal, .sparkle, .animate-shimmer { animation: none !important; opacity: 1 !important; transform: none !important; }
         }
 
-        /* pastel utility aliases for easy Tailwind-like tokens (used in inline classes above) */
+        
         .bg-pastel-rose { background: linear-gradient(90deg, var(--pastel-rose), var(--pastel-lilac)); }
         .text-pastel-rose { color: var(--pastel-rose); }
         .bg-pastel-peach { background-color: var(--pastel-peach); }
@@ -213,7 +213,7 @@ export default function FeminineHero() {
         .bg-pastel-rose-50 { background-color: rgba(255,122,162,0.06); }
         .border-pastel-rose-100 { border-color: rgba(255,122,162,0.12); }
 
-        /* accessibility: ensure focus ring is visible */
+       
         a:focus, button:focus { outline: none; box-shadow: 0 0 0 6px rgba(255,122,162,0.08); border-radius: 9999px; }
       `}</style>
     </div>
