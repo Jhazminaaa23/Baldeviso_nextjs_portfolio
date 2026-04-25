@@ -55,11 +55,8 @@ export default function About() {
         </p>
 
         
-        <div className="flex justify-center gap-4 fade-up" style={{ animationDelay: "360ms" }}>
-          <Link href="/contact" className="px-6 py-2 rounded-xl bg-linear-to-r from-pink-200 to-rose-300 text-black font-semibold shadow-lg hover:brightness-110 transition">
-            Contact
-          </Link>
-        </div>
+        
+        
       </div>
 
       
