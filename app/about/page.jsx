@@ -54,8 +54,12 @@ export default function About() {
           interfaces that feel magical.
         </p>
 
-        
-        
+        <div className="flex flex-col sm:flex-row justify-center gap-4 fade-up" style ={{animationDelay: "360ms"}}>
+          <Link href={/contact} className="px-5 py-2 bg-pastel-rose text-white rounded-xl font-semibold shadow-md hover:brightness-110 transition">
+            Contact Me
+          </Link>
+          
+                  
         
       </div>
 
